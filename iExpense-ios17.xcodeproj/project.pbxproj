@@ -11,6 +11,12 @@
 		18AF30392B71046200BFDD43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF30382B71046200BFDD43 /* ContentView.swift */; };
 		18AF303B2B71046400BFDD43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF303A2B71046400BFDD43 /* Assets.xcassets */; };
 		18AF303E2B71046400BFDD43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF303D2B71046400BFDD43 /* Preview Assets.xcassets */; };
+		18AF30452B71087B00BFDD43 /* UsingStateWithClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF30442B71087B00BFDD43 /* UsingStateWithClasses.swift */; };
+		18AF30472B710F2C00BFDD43 /* ShowindAndHidingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF30462B710F2C00BFDD43 /* ShowindAndHidingViews.swift */; };
+		18AF30492B71114F00BFDD43 /* DeletingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF30482B71114F00BFDD43 /* DeletingItems.swift */; };
+		18AF304B2B7112DD00BFDD43 /* UserDefaultsBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF304A2B7112DD00BFDD43 /* UserDefaultsBasic.swift */; };
+		18BEC0D82B711A5900C181A5 /* UsingCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BEC0D72B711A5900C181A5 /* UsingCodable.swift */; };
+		18BEC0DA2B711EC400C181A5 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BEC0D92B711EC400C181A5 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		18AF30382B71046200BFDD43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18AF303A2B71046400BFDD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AF303D2B71046400BFDD43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18AF30442B71087B00BFDD43 /* UsingStateWithClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingStateWithClasses.swift; sourceTree = "<group>"; };
+		18AF30462B710F2C00BFDD43 /* ShowindAndHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowindAndHidingViews.swift; sourceTree = "<group>"; };
+		18AF30482B71114F00BFDD43 /* DeletingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItems.swift; sourceTree = "<group>"; };
+		18AF304A2B7112DD00BFDD43 /* UserDefaultsBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsBasic.swift; sourceTree = "<group>"; };
+		18BEC0D72B711A5900C181A5 /* UsingCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingCodable.swift; sourceTree = "<group>"; };
+		18BEC0D92B711EC400C181A5 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				18AF30362B71046200BFDD43 /* iExpense_ios17App.swift */,
 				18AF30382B71046200BFDD43 /* ContentView.swift */,
+				18BEC0D92B711EC400C181A5 /* AddView.swift */,
+				18AF30442B71087B00BFDD43 /* UsingStateWithClasses.swift */,
+				18AF30462B710F2C00BFDD43 /* ShowindAndHidingViews.swift */,
+				18AF30482B71114F00BFDD43 /* DeletingItems.swift */,
+				18AF304A2B7112DD00BFDD43 /* UserDefaultsBasic.swift */,
+				18BEC0D72B711A5900C181A5 /* UsingCodable.swift */,
 				18AF303A2B71046400BFDD43 /* Assets.xcassets */,
 				18AF303C2B71046400BFDD43 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AF30492B71114F00BFDD43 /* DeletingItems.swift in Sources */,
 				18AF30392B71046200BFDD43 /* ContentView.swift in Sources */,
+				18BEC0D82B711A5900C181A5 /* UsingCodable.swift in Sources */,
+				18AF304B2B7112DD00BFDD43 /* UserDefaultsBasic.swift in Sources */,
+				18BEC0DA2B711EC400C181A5 /* AddView.swift in Sources */,
 				18AF30372B71046200BFDD43 /* iExpense_ios17App.swift in Sources */,
+				18AF30472B710F2C00BFDD43 /* ShowindAndHidingViews.swift in Sources */,
+				18AF30452B71087B00BFDD43 /* UsingStateWithClasses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
